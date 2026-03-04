@@ -12,11 +12,11 @@ TestResults/
 *.suo
 *.ntvs_analysis.dat
 *.dotCover
-*.vscode
+*.vscode/
 
 # Temp files
-*.tmp
-*.temp
+.tmp
+.temp
 
 # IDE
 .idea/
@@ -40,3 +40,6 @@ TestResults/
 
 # Deployment
 deploy.sh
+
+# Generated files
+*.csproj.user
