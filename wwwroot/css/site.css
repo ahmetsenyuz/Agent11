@@ -18,7 +18,7 @@ html {
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cff;
 }
 
 html {
@@ -41,7 +41,7 @@ body {
     --text-primary: #ffffff;
     --text-secondary: #cccccc;
     --success-green: #00cc66;
-    --warning-orange: #ff9000;
+    --warning-orange: #ff9900;
     --danger-red: #ff3333;
 }
 
@@ -112,7 +112,7 @@ body {
     margin: 0 auto;
 }
 
-.techno-details h3 {
+.technology-details h3 {
     color: var(--primary-blue);
     margin-top: 1.5rem;
 }
@@ -187,14 +187,17 @@ body {
     color: var(--primary-blue);
 }
 
-.testimonial-carousel {
+.testimonials-carousel {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
+    background: var(--light-bg);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.carousel-slide {
+.testimonial-slide {
     display: none;
     text-align: center;
     padding: 2rem;
@@ -203,7 +206,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.carousel-slide.active {
+.testimonial-slide.active {
     display: block;
 }
 
@@ -221,6 +224,7 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 .carousel-btn:hover {
