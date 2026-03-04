@@ -39,7 +39,7 @@
         <h2 class="section-title">Blockchain Technology</h2>
         <div class="technology-content">
             <p>AmetCoin leverages the latest blockchain innovations to provide a secure, transparent, and efficient platform for digital currency transactions.</p>
-            <div class="tech-details">
+            <div class="techno-details">
                 <h3>Consensus Mechanism</h3>
                 <p>Our proprietary proof-of-stake algorithm ensures energy efficiency while maintaining network security.</p>
                 
@@ -60,7 +60,7 @@
                 <div class="member-image"></div>
                 <h3>John Smith</h3>
                 <p class="role">CEO & Founder</p>
-                <p>Blockchain visionary with over 15 years of experience in financial technology.</p>
+                <p>Blockchain vision with over 15 years of experience in financial technology.</p>
             </div>
             <div class="team-member">
                 <div class="member-image"></div>
@@ -74,6 +74,56 @@
                 <p class="role">Lead Developer</p>
                 <p>Full-stack developer specializing in blockchain applications.</p>
             </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics-section">
+        <h2 class="section-title">Our Achievements</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3 class="counter" data-target="1000000">0</h3>
+                <p>Transactions Processed</p>
+            </div>
+            <div class="feature-card">
+                <h3 class="counter" data-target="50000">0</h3>
+                <p>Active Users</p>
+            </div>
+            <div class="feature-card">
+                <h3 class="counter" data-target="25">0</h3>
+                <p>Global Partnerships</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <h2 class="section-title">What Our Users Say</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial-slide active">
+                <p>"AmetCoin has completely transformed how I manage my digital assets. The security and speed are unmatched."</p>
+                <p>- Alex Johnson, Blockchain Enthusiast</p>
+            </div>
+            <div class="testimonial-slide">
+                <p>"The intuitive interface makes cryptocurrency accessible to everyone, not just tech experts."</p>
+                <p>- Maria Rodriguez, Investor</p>
+            </div>
+            <div class="testimonial-slide">
+                <p>"Implementation of smart contracts has reduced transaction costs by 70% compared to traditional methods."</p>
+                <p>- David Kim, Financial Analyst</p>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-btn carousel-prev">Previous</button>
+                <button class="carousel-btn carousel-next">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Price Section -->
+    <section class="market-section">
+        <h2 class="section-title">Live Market Price</h2>
+        <div class="market-price-display">
+            <p>Current Price: <span id="live-price">0.00000001</span> BTC</p>
         </div>
     </section>
 
@@ -95,4 +145,31 @@
             </div>
         </div>
     </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+                <span id="name-error" class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+                <span id="email-error" class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                <span id="message-error" class="error-message"></span>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
 </div>
+
+@section Scripts {
+    <script src="~/js/interactive.js" asp-append-version="true"></script>
+}
