@@ -29,3 +29,21 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* AmetCoin Design System Overrides */
+:root {
+  --primary-blue: #0066ff;
+  --secondary-blue: #0047b3;
+  --accent-purple: #8a2be2;
+  --accent-gold: #ffd700;
+  --dark-bg: #0a0a1a;
+  --light-bg: #f0f0f5;
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --success-green: #00cc66;
+  --warning-orange: #ff9900;
+  --danger-red: #ff3333;
+}
+
+/* Import the design system */
+@import url('design-system.css');
