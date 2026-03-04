@@ -1,0 +1,42 @@
+# Build artifacts
+bin/
+obj/
+TestResults/
+
+# Visual Studio 2019 cache
+.vs/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.ntvs_analysis.dat
+*.dotCover
+*.vscode
+
+# Temp files
+*.tmp
+*.temp
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Test results
+TestResults/
+
+# Deployment
+deploy.sh
