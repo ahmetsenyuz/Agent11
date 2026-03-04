@@ -2,6 +2,10 @@
     ViewData["Title"] = "About Page";
 }
 
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
 <div class="container">
     <!-- Hero Section -->
     <section class="hero-section">
@@ -99,7 +103,7 @@
     <!-- Testimonials Section -->
     <section class="testimonials-section">
         <h2 class="section-title">What Our Users Say</h2>
-        <div class="testimonial-carousel">
+        <div class="testimonials-carousel">
             <div class="testimonial-slide active">
                 <p>"AmetCoin has completely transformed how I manage my digital assets. The security and speed are unmatched."</p>
                 <p>- Alex Johnson, Blockchain Enthusiast</p>
@@ -133,15 +137,21 @@
         <div class="faq-container">
             <div class="faq-item">
                 <h3 class="faq-question">How do I get started with AmetCoin?</h3>
-                <p class="faq-answer">To start using AmetCoin, download our wallet application from our website and create an account. You can then purchase AmetCoin tokens through our exchange partners or via direct purchase.</p>
+                <div class="faq-answer">
+                    <p>To start using AmetCoin, download our wallet application from our website and create an account. You can then purchase AmetCoin tokens through our exchange partners or via direct purchase.</p>
+                </div>
             </div>
             <div class="faq-item">
                 <h3 class="faq-question">Is AmetCoin secure?</h3>
-                <p class="faq-answer">Yes, AmetCoin employs industry-leading security measures including multi-signature wallets, cold storage for assets, and regular security audits to protect your investments.</p>
+                <div class="faq-answer">
+                    <p>Yes, AmetCoin employs industry-leading security measures including multi-signature wallets, cold storage for assets, and regular security audits to protect your investments.</p>
+                </div>
             </div>
             <div class="faq-item">
                 <h3 class="faq-question">What makes AmetCoin different from other cryptocurrencies?</h3>
-                <p class="faq-answer">AmetCoin combines advanced blockchain technology with user-friendly interfaces, energy-efficient consensus mechanisms, and a strong focus on privacy and scalability.</p>
+                <div class="faq-answer">
+                    <p>AmetCoin combines advanced blockchain technology with user-friendly interfaces, energy-efficient consensus mechanisms, and a strong focus on privacy and scalability.</p>
+                </div>
             </div>
         </div>
     </section>
